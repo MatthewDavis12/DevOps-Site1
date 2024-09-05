@@ -3,7 +3,7 @@ const app = express();
 const port = 80;
 
 app.get("/", (req, res)=>{
-    res.status(200).sendFile("/home/matthew/www/site_1/DevOps-Site1/index.html");
+    res.status(200).send("node-app connection successful!");
 })
 
 

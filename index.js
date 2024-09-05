@@ -3,7 +3,7 @@ const app = express();
 const port = 80;
 
 app.get("/", (req, res)=>{
-    res.status(200).send("node-app connection successful!");
+    res.status(200).send("node-app version 1.0 connection successful!");
 })
 
 
